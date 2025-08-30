@@ -157,8 +157,8 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2023 - Oct 2024",
     points: [
-      "Built and deployed an e-commerce platform using React and Strapi, supporting 5K+ monthly visitors.",
       "Built comprehensive portals for organizations, including a full-stack, multi-client community app for a church in Maryland, USA, to manage members, events, and internal communications.",
+      "Built and deployed an e-commerce platform using React and Strapi, supporting 5K+ monthly visitors.",
       "Created internal dashboards for clients, reducing manual reporting time by 40%.",
       "Improved performance of a legacy React app, cutting page load speed by 60%.",
       "Collaborated with designers and backend teams to deliver responsive, production-ready UIs."
