@@ -298,7 +298,7 @@ const projects = [
     ],
     image: deedis,
     source_code_link: "https://github.com/DekafTheFirst/deedi-clothings-main",
-    preview_link: "https://deedis.com/",
+    // preview_link: "https://deedis.com/",
   },
   
   {
