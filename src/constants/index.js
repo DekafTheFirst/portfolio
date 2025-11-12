@@ -141,10 +141,10 @@ const experiences = [
     date: "Oct 2024 - Present",
     points: [
       "Built and optimized frontend systems for high-impact public sector apps serving 300K+ users yearly.",
-      "Improved onboarding flow for tax platforms, reducing abandonment and increasing activation — contributing to 500M+ NGN in processed taxes.",
+      "Improved onboarding flow for tax platforms, reducing abandonment and increasing activation — contributing to 500B+ NGN in processed taxes.",
       "Key Projects:",
-      "Anambra State Internal Revenue Central System (link)",
-      "Corporate Affairs Commission VAS API Integrated Service (link)",
+      "Anambra State Internal Revenue Central System ",
+      "Corporate Affairs Commission VAS API Integrated Service",
       "Kogi State Hotel & Tourism Board",
       "Increased mobile responsiveness using CSS Grid and Flexbox.",
       "Reduced API request failures by 35% through Spring Boot and Strapi integration improvements."
@@ -157,28 +157,24 @@ const experiences = [
     iconBg: "#383E56",
     date: "May 2023 - Oct 2024",
     points: [
-      "Built comprehensive portals for organizations, including a full-stack, multi-client community app for a church in Maryland, USA, to manage members, events, and internal communications.",
-      "Built and deployed an e-commerce platform using React and Strapi, supporting 5K+ monthly visitors.",
-      "Created internal dashboards for clients, reducing manual reporting time by 40%.",
-      "Improved performance of a legacy React app, cutting page load speed by 60%.",
-      "Collaborated with designers and backend teams to deliver responsive, production-ready UIs."
+      "Designed, developed, and optimized e-commerce, fintech, and community platforms using React.js, Strapi, and Node.js, achieving up to 40% faster load times compared to clients’ previous versions or legacy systems through responsive design, code splitting, and performance tuning. Improved user engagement by 25% through UX enhancements, accessibility upgrades, and mobile-first design. ",
+      "Built and maintained robust frontends with React.js, Next.js, and React Native, implementing features such as product catalogs, secure checkouts, order tracking, payment integrations, and user-generated content systems. Ensured cross-device responsiveness, a11y compliance, and SEO-friendly architecture using Tailwind CSS, Framer Motion, and lazy loading strategies. ",
+      "Developed scalable backends with Strapi CMS, Spring Boot, and RESTful APIs, integrating PostgreSQL and MySQL to manage dynamic data and reduce API response times by 30% through optimized queries and caching. ",
+      "Implemented secure authentication (JWT/OAuth), payment gateways (Stripe, PayPal), and multilingual support (i18n) to enhance global usability and trust. ",
+      "Collaborated in Agile teams, contributing to architecture planning, code reviews, and CI/CD pipelines, delivering over 10 production-grade web and mobile applications for small businesses, startups, and community organizations. ",
     ]
   },
   {
-    title: "IT Support, Intern",
+    title: "Front End Developer, Intern",
     company_name: "TTEC, Cebu City, Philippines",
     icon: ttec,
     iconBg: "#E6DEDD",
-    date: "Feb 2023 - May 2023",
+    date: "Jan 2023 - May 2023",
     points: [
-      "Provided technical support for hardware, software, and network issues across multiple end-users, ensuring minimal downtime.",
-      "Diagnosed and resolved incidents via in-person, phone, and remote assistance tools.",
-      "Installed, configured, and maintained operating systems, applications, and peripherals.",
-      "Managed user accounts, permissions, and security settings in Active Directory and related systems.",
-      "Performed system updates, backups, and preventive maintenance to improve reliability and performance.",
-      "Escalated complex issues to higher-level support or vendors and followed through to resolution.",
-      "Documented troubleshooting steps, solutions, and technical procedures for internal knowledge base.",
-      "Assisted with onboarding and training of new staff on IT systems and best practices."
+      "Developed and maintained agent dashboards, internal web tools, and customer-facing portals using React.js and Node.js, supporting day-to-day BPO operations.",
+      "Implemented features such as real-time reporting, performance tracking, and user management to streamline workflows and improve service delivery.",
+      "Integrated RESTful APIs and authentication systems to ensure secure access and seamless communication across SaaS platforms.",
+      "Collaborated in an Agile environment, contributing to code reviews, debugging, and the delivery of scalable, responsive applications used by both employees and clients."
     ]
   },
 
