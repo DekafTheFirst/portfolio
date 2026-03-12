@@ -34,6 +34,9 @@ import soteriaApp from '../assets/portfolio/soteria-connect.jpg';
 import lgaDateRange from '../assets/portfolio/lga-date-range.jpg';
 import airs from '../assets/portfolio/airs.jpg';
 import ivas from '../assets/portfolio/ivas.jpg';
+import zing from '../assets/portfolio/zing/1.png';
+import bankina from '../assets/portfolio/bankina/1.png';
+import artistOS from '../assets/portfolio/artist-os/1.png';
 
 
 
@@ -90,9 +93,9 @@ const technologies = [
     name: "angular",
     icon: angular,
   },
-  
-  
- 
+
+
+
   {
     name: "TypeScript",
     icon: typescript,
@@ -129,7 +132,7 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  
+
 ];
 
 const experiences = [
@@ -222,6 +225,83 @@ const testimonials = [
 
 const projects = [
   {
+    name: "AI-Powered Artist Dashboard",
+    description:
+  "A smart platform designed for independent music artists that automatically transcribes songs, organizes lyrics, and helps artists prepare their music for release faster. The platform also has a feature that analyzes an artist’s style and suggests relevant Spotify playlists while generating pitch ideas to improve their chances of getting featured.",
+  tags: [
+      {
+        name: "react",
+        color: "red-text-gradient",
+      },
+
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ai",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "gemini-ai",
+        color: "green-text-gradient",
+      },
+      ,
+      {
+        name: "assembly-ai",
+        color: "green-text-gradient",
+      },
+    ],
+    image: artistOS, // replace with actual
+    source_code_link: "https://github.com/DekafTheFirst/artist-os",
+
+    preview_link: "https://artist-dac5ziimg-dekafthefirsts-projects.vercel.app/aistudio"
+  },
+  {
+    name: "Zing Group Ltd, UK.",
+    description:
+  "A platform that connects users with vetted professionals for cleaning, childcare staffing, residential care, and training services, making it easy to find reliable support tailored to their needs.",    tags: [
+      {
+        name: "react",
+        color: "red-text-gradient",
+      },
+
+      {
+        name: "framermotion",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "landingpage",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zing, // replace with actual
+    preview_link: "https://www.zinggroupltd.co.uk/"
+  },
+  {
+    name: "Bankina",
+    description:
+        "A modern digital banking platform designed to simplify everyday financial management for Nigerians. The app enables users to send and receive money instantly, pay bills, purchase airtime and data, and grow their savings through smart vaults with daily interest. With CBN and NDIC compliance, the platform combines security, convenience, and a nationwide agent network to deliver seamless banking directly from a mobile device.",
+    tags: [
+      {
+        name: "react",
+        color: "red-text-gradient",
+      },
+
+      {
+        name: "i18n",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "multi-language",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bankina, // replace with actual
+    preview_link: "https://bankina.ng/"
+  },
+
+  {
     name: "IVAS - Integrated Vehicle Administration System",
     description:
       "Full-stack platform built with Angular and Spring Boot to streamline vehicle administration for both individual and corporate users. Features include vehicle registration and renewal, roadworthiness certification with instant e-certificates, automated licensing with digital copies, real-time law enforcement verification via QR codes, fleet management dashboards, and advanced analytics for performance monitoring and compliance tracking.",
@@ -294,13 +374,13 @@ const projects = [
         name: "bootstrap",
         color: "pink-text-gradient",
       },
-      
+
     ],
     image: deedis,
     source_code_link: "https://github.com/DekafTheFirst/deedi-clothings-main",
     // preview_link: "https://deedis.com/",
   },
-  
+
   {
     name: "Smart LGA",
     description:
@@ -351,9 +431,9 @@ const projects = [
     image: airs,
     preview_link: 'https://tax.services.an.gov.ng/'
   },
-  
-  
-  
+
+
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
