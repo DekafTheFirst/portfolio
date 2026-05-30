@@ -46,10 +46,15 @@ export const navLinks = [
     id: "about",
     title: "About",
   },
+   {
+    id: "projects",
+    title: "Projects",
+  },
   {
     id: "work",
-    title: "Work",
+    title: "Experience",
   },
+
   {
     id: "contact",
     title: "Contact",
@@ -141,7 +146,7 @@ const experiences = [
     company_name: "Oasis Management Company",
     icon: oasis,
     iconBg: "#383E56",
-    date: "Oct 2024 - Present",
+    date: "Oct 2024 - February 2025",
     points: [
       "Built and optimized frontend systems for high-impact public sector apps serving 300K+ users yearly.",
       "Improved onboarding flow for tax platforms, reducing abandonment and increasing activation — contributing to 500B+ NGN in processed taxes.",
@@ -224,6 +229,80 @@ const testimonials = [
 ];
 
 const projects = [
+  
+  {
+    name: "Zing Group Ltd, UK.",
+    description:
+  "A platform that connects users with vetted professionals for cleaning, childcare staffing, residential care, and training services, making it easy to find reliable support tailored to their needs.",    tags: [
+      {
+        name: "react",
+        color: "red-text-gradient",
+      },
+
+      {
+        name: "framermotion",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "landingpage",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: zing, // replace with actual
+    preview_link: "https://www.zinggroupltd.co.uk/"
+  },
+
+  
+  {
+    name: "Bankina",
+    description:
+        "A modern digital banking platform designed to simplify everyday financial management for Nigerians. The app enables users to send and receive money instantly, pay bills, purchase airtime and data, and grow their savings through smart vaults with daily interest. With CBN and NDIC compliance, the platform combines security, convenience, and a nationwide agent network to deliver seamless banking directly from a mobile device.",
+    tags: [
+      {
+        name: "react",
+        color: "red-text-gradient",
+      },
+
+      {
+        name: "i18n",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "multi-language",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bankina, // replace with actual
+    preview_link: "https://bankina.ng/"
+  },
+
+  {
+    name: "Soteria Church Community App",
+    description:
+      "Developed a full-featured community platform with web and mobile clients for a Maryland-based church, powered by a Node.js (Strapi) backend, enabling seamless member management, event coordination, and real-time communications — with self-service content updates for church administrators and management.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react-native",
+        color: "green-text-gradient",
+      },
+      {
+        name: "strapi",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "nodejs",
+        color: "yellow-text-gradient",
+      },
+    ],
+    image: soteriaApp,
+    preview_link: 'https://soteriachurch.org/',
+    source_code_link: "https://github.com/DekafTheFirst/soteria-web-client",
+  },
+
   {
     name: "AI-Powered Artist Dashboard",
     description:
@@ -257,49 +336,7 @@ const projects = [
 
     preview_link: "https://artist-dac5ziimg-dekafthefirsts-projects.vercel.app/aistudio"
   },
-  {
-    name: "Zing Group Ltd, UK.",
-    description:
-  "A platform that connects users with vetted professionals for cleaning, childcare staffing, residential care, and training services, making it easy to find reliable support tailored to their needs.",    tags: [
-      {
-        name: "react",
-        color: "red-text-gradient",
-      },
-
-      {
-        name: "framermotion",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "landingpage",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: zing, // replace with actual
-    preview_link: "https://www.zinggroupltd.co.uk/"
-  },
-  {
-    name: "Bankina",
-    description:
-        "A modern digital banking platform designed to simplify everyday financial management for Nigerians. The app enables users to send and receive money instantly, pay bills, purchase airtime and data, and grow their savings through smart vaults with daily interest. With CBN and NDIC compliance, the platform combines security, convenience, and a nationwide agent network to deliver seamless banking directly from a mobile device.",
-    tags: [
-      {
-        name: "react",
-        color: "red-text-gradient",
-      },
-
-      {
-        name: "i18n",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "multi-language",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: bankina, // replace with actual
-    preview_link: "https://bankina.ng/"
-  },
+  
 
   {
     name: "IVAS - Integrated Vehicle Administration System",
@@ -327,32 +364,7 @@ const projects = [
     // source_code_link: "https://github.com/", // replace if applicable
     preview_link: "https://ivas.services.an.gov.ng/home?component="
   },
-  {
-    name: "Soteria Church Community App",
-    description:
-      "Developed a full-featured community platform with web and mobile clients for a Maryland-based church, powered by a Node.js (Strapi) backend, enabling seamless member management, event coordination, and real-time communications — with self-service content updates for church administrators and management.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "react-native",
-        color: "green-text-gradient",
-      },
-      {
-        name: "strapi",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "nodejs",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: soteriaApp,
-    preview_link: 'https://soteriachurch.org/',
-    source_code_link: "https://github.com/DekafTheFirst/soteria-web-client",
-  },
+  
   {
     name: "Deedis",
     description:
